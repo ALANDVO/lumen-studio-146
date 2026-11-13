@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "current_feature": "skeleton-setup",
+  "features": [
+    {
+      "id": "skeleton-setup",
+      "title": "Project skeleton and README setup",
+      "status": "done",
+      "acceptance": [
+        "Repository has proper README.md with product title and description",
+        "Project has .gitignore with standard Python/Node.js exclusions",
+        "Basic project structure exists"
+      ],
+      "implementation": [
+        "README.md",
+        ".gitignore"
+      ],
+      "tests": [
+        "README.md formatted correctly"
+      ]
+    },
+    {
+      "id": "fastapi-core",
+      "title": "FastAPI backend core",
+      "status": "done",
+      "acceptance": [
+        "FastAPI application runs on port 8000",
+        "Basic API endpoint exists",
+        "Application responds to health checks"
+      ],
+      "implementation": [
+        "main.py",
+        "requirements.txt"
+      ],
+      "tests": [
+        "check_fastapi.py"
+      ]
+    },
+    {
+      "id": "react-frontend",
+      "title": "React frontend",
+      "status": "planned",
+      "acceptance": [
+        "React application builds and runs",
+        "Basic UI components displayed",
+        "Application can be accessed via browser"
+      ],
+      "implementation": [],
+      "tests": []
+    }
+  ]
+}

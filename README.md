@@ -1,2 +1,11 @@
 # lumen-studio-146
-Alan Vo | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+> Work in progress. This checkpoint may be incomplete or fail tests. See PLAN.md and STATUS.md before use.
+
+AI/ML developer tools for agent harness performance optimization.
+
+---
+
+Alan Vo · [alanvo.net](https://alanvo.net) · [X: @alanvoasi](https://x.com/alanvoasi)
+
+Maintainer: Alan Vo <alanvo@gmail.com>

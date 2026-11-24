@@ -19,6 +19,13 @@ def main():
     assert "message" in data2, f"Unexpected root response: {data2}"
     print("Root endpoint passed")
 
+    # version endpoint
+    resp3 = client.get("/version")
+    assert resp3.status_code == 200, f"Version endpoint failed: {resp3.status_code}"
+    data3 = resp3.json()
+    assert data3 == {"version": "1.1.0"}, f"Unexpected version response: {data3}"
+    print("Version endpoint passed")
+
     print("All FastAPI checks passed")
 
     return True

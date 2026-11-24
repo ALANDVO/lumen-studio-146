@@ -10,6 +10,10 @@ def health():
 def root():
     return {"message": "Welcome to lumen-studio-146 API"}
 
+@app.get("/version")
+def version():
+    return {"version": "1.1.0"}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
